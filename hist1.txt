@@ -1,0 +1,500 @@
+   80  git log -S 'names'
+   81  git grep 'qa1'
+   82  git grep 'nfmes'
+   83  git ls-files | grep
+   84  git ls-files | grep qa
+   85  git ls-files | grep qa*
+   86  git ls-files | grep name*
+   87  grep -f names.txt
+   88  cd qa2
+   89  grep -f names.txt
+   90  git ls-files | grep names
+   91  ls -la
+   92  git ls-files | grep 'names'
+   93  git ls-files | grep f1
+   94  grap -f nfmes.txt
+   95  grap -f names.txt
+   96  git ls-files | grep names
+   97  cd ..
+   98  tail -f names1.txt
+   99  cd qa2
+  100  ls -la
+  101  tail -f names1.txt
+  102  git ls-files | grep names
+  103  git ls-files | grep names1
+  104  git ls-files | grep names1.txt
+  105  mkdir c1 c2 c3 c4
+  106  rm c1 c2 c3 c4
+  107  rm -r c1 c2 c3 c4
+  108  git ls-files 'names'
+  109  ls -la
+  110  git ls-files 'names.txt'
+  111  cd ..
+  112  git ls-files 'names.txt'
+  113  git ls-files 'names1.txt'
+  114  cd qa1
+  115  [200~for i in {1..10}; do echo "Это строка номер $i" >> example.txt; done
+  116  for i in {1..10}; do echo "Это строка номер 1" >> example.txt; done
+  117  ls -la
+  118  cat example.txt
+  119  rm -r example.txt 
+  120  ls -la
+  121  for i in {1..10}; do echo "Это строка номер $i" >> example.txt; done
+  122  ls -la
+  123  cat example.txt
+  124  touch
+  125  touch
+  126  pwd
+  127  find ~iname '*.txt'
+  128  ls -la
+  129  [200~echo “Good jobls -la”
+  130  echo “Good job”
+  131  find ~iname 
+  132  grep -a names2.txt
+  133  grep -a names2.txt
+  134  grep -a row1
+  135  help
+  136  grep --help
+  137  cd ..
+  138  cd qa2
+  139  ls -la
+  140  find ./ -name "*.txt"
+  141  find ./ -name "*.json"
+  142  find / -name "*.json"
+  143  cd ..
+  144  find ./ -name "*.json"
+  145  find ./ -name "users.json"
+  146  cd qa2
+  147  ls -la
+  148  find /home/ - name "name*"
+  149  find ./home/ - name "name*"
+  150  find /home/ - name 'name*'
+  151  find /c/ - name 'name*'
+  152  pwd
+  153  find /setsa/ -name 'name*'
+  154  find /setsa/ -name "name*"
+  155  sd qa1
+  156  cd qa1
+  157  ls -la
+  158  cd ..
+  159  cd qa2
+  160  ls -la
+  161  grep
+  162  pwd --help
+  163  grap
+  164  pwd
+  165  cd qa2
+  166  ls -la
+  167  grep -i '1' names1.txt
+  168  clear
+  169  cd ..
+  170  mkdir hw_2
+  171  cd hw_2
+  172  mkdir dir_1
+  173  cd dir_1
+  174  mkdir inner_dir_1
+  175  pwd
+  176  cat > tf_1.txt
+  177  cat > tf_2.txt
+  178  cat tf_2.txt
+  179  cd inner_dir_1
+  180  cat >> tf_3.txt
+  181  ls -la
+  182  cat >> tf_3.txt
+  183  cat >> tf_3.txt
+  184  ls -la
+  185  cat >> tf_3.txt
+  186  cat >> tf_3.txt
+  187  cat >> tf_3.txt
+  188  cat >> ../tf_2.txt
+  189  cat >> tf_3.txt
+  190  cat >> ../tf_2.txt
+  191  ls -la
+  192  cd ..
+  193  ls -la
+  194  cat inner_dir_1/tf_3.txt
+  195  find / -name tf_4.txt
+  196  find ./ -name tf_4.txt
+  197  for i in {1..15}; do echo "Это строка номер $i" >> tf_4.txt; done 
+  198  for i in {1..13}; do echo "Это строка номер $i" >> tf_5.txt; done 
+  199  mv dir_1/tf_4.txt inner_dir_1/tf_4.txt
+  200  cd inner_dir_1
+  201  for i in {1..15}; do echo "Это строка номер $i" >> tf_4.txt; done 
+  202  for i in {1..13}; do echo "Это строка номер $i" >> tf_5.txt; done 
+  203  ls -la
+  204  cd ..
+  205  cat tf_3.txt
+  206  ls -la
+  207  cat inner_dir_1/tf_3.txt
+  208  find $ (pwd) -name tf_4.txt
+  209  find $(pwd) -name tf_4.txt
+  210  rm inner_dir/tf_4.txt
+  211  rm inner_dir1/tf_4.txt
+  212  > inner_dir1/tf_4.txt
+  213  rm inner_dir_1/tf_4.txt
+  214  cd inner_dir_1
+  215  for i in {1..15}; do echo "Это строка номер $i" >> tf_4.txt; done 
+  216  rm inner_dir_1/tf_4.txt
+  217  >inner_dir_1/tf_4.txt
+  218  > inner_dir_1/tf_4.txt
+  219  > inner_dir_1/tf_4.txt
+  220  > inner_dir_1/tf_4.txt
+  221  cat /dev/nuul > tf_4/txt
+  222  cat /dev/null > tf_4/txt
+  223  history
+  224  cd dir_1
+  225  pwd
+  226  find $(pwd) "*tf*"
+  227  history
+  228  find $(pwd) -name "*tf*"
+  229  pwd
+  230  cd hw_2
+  231  cd dir_1
+  232  cat /dev/null > tf_4.txt
+  233  cat /dev/null > tf_4.txt
+  234  > tf_4.txt
+  235  > inner_dir_1 / tf_4.txt
+  236  > inner_dir_1/ tf_4.txt
+  237  > inner_dir_1/tf_4.txt
+  238  find - type f -name "*tf*"
+  239  find -type f -name "*tf*"
+  240  find -type f -iname "*tf*"
+  241  grep sec*
+  242  grep sec *
+  243  grep sec *
+  244  grep -i sec *
+  245  grep -w sec *
+  246  grep -iw sec *
+  247  grep second *
+  248  grep -i second *
+  249  grep -r second *
+  250  grep -l second *
+  251  grep -l second * | xargs realpath
+  252  grep -r -v second *
+  253  grep -r -l -v second *
+  254  tail -4 tf_2.txt
+  255  head -4 tf_2.txt
+  256  echo "Good jobhead -4 tf_2.txt"
+  257  mkdir qa && echo "Строка 11" > qa/qa.txt
+  258  mv $(grep -rl sec*) /c/Users/setsa/hw_2/dir_1/qa/
+  259  cp $(grep -rl sec*) /c/Users/setsa/hw_2/dir_1/qa/
+  260  cp $(grep -rl sec*) /c/Users/setsa/hw_2/dir_1/
+  261  grep sec * > qwer.txt
+  262  rm $(grep -rm sec*)
+  263  rm $(grep -rm sec*)
+  264  rm --help
+  265  rm $(grep -rl sec*)
+  266  history
+  267  history >> hist.txt
+  268  pwd
+  269  clear
+  270  pwd
+  271  clear
+  272  pwd
+  273  cd hw_2
+  274  mkdir 1
+  275  clear
+  276  cd 1
+  277  clear
+  278  mkdir 1
+  279  mkdir 3 4 5 
+  280  зцв
+  281  pwd
+  282  cd dir_1
+  283  cd hw_1/dir_1
+  284  cd hw_1 /dir_1
+  285  cd hw_2 
+  286  cd hw_2 /dir_1
+  287  cd hw_2
+  288  cd dir_1
+  289  ls -la
+  290  cd ..
+  291  mkdir 1
+  292  cd 1
+  293  mkdir 3 4 5
+  294  cd ..
+  295  mkdir 3 4 5
+  296  mrdir -p /1/work/june/2024/
+  297  mkdir -p /1/work/june/2024/
+  298  mkdir -p setsa/hw_2/1/work/june/2024/
+  299  clear
+  300  mkdir -p /2/work/june/2024
+  301  mkdir -p 2/work/june/2024
+  302  mkdir -p asdf/work/june/2024
+  303  mkdir -p /asdf/work/june/2024
+  304  history
+  305  mkdir -p /11/work/june/2024/
+  306  mkdir -p /11/work/june/2024
+  307  mkdir -p 11/work/june/2024
+  308  cd ..
+  309  cd hw_2
+  310  mkdir -p /setsa/hw_2/work/june/2024
+  311  mkdir -p setsa/hw_2/work/june/2024
+  312  clear
+  313  mkdir -p 2/work/2024/june
+  314  mkdir -p 2/work/2024/june
+  315  mkdir -p 2/work/2024/june
+  316  mkdir -p 2/work/2024/june
+  317  mkdir -p 1/work/2024/june
+  318  clear
+  319  mkdir -p 2/work/2024/june
+  320  mkdir -p 1/work/2024/june
+  321  clear
+  322  [200~ mkdir -p 1/work/2024/june
+  323  clear
+  324  mkdir -p 2/work/2024/june
+  325  mkdir -p 1/work/2024/june
+  326  mkdir -p 1/workk/2024/june
+  327  cd 1
+  328  mkdir -p 1/workk/2024/june
+  329  history
+  330  awd
+  331  pwd
+  332  la
+  333  ls
+  334  cd hw_2
+  335  lc
+  336  ls
+  337  ls
+  338  git add Linux terminal_1.docx
+  339  git add Linux terminal_1.txt
+  340  cd ..
+  341  pwd
+  342  cd c/Users/setsa
+  343  cd c/Users/setsa/hw_2
+  344  git add Linux terminal_1.txt
+  345  пше
+  346  git
+  347  git remote add origin https://github.com/StepanSav/Test.git
+  348  cd c/Users/setsa
+  349  cd c/Users/setsa/hw_2
+  350  cd c/Users/setsa/hw_2/
+  351  cd /c/Users/setsa/hw_2/
+  352  git status
+  353  cd ..
+  354  git status
+  355  mkdir git
+  356  sd git
+  357  cd git
+  358  git clone https://github.com/StepanSav/lesson.git
+  359  git add Linux terminal_1.dox
+  360  git add Linux terminal_1.docx
+  361  git add Linux terminal_1.txt
+  362  git status
+  363  lesson
+  364  cd lesson
+  365  git status
+  366  git add Linux terminal_1.docx
+  367  git add Linux terminal_1.txt
+  368  ls
+  369  git add Linux terminal_1.doc
+  370  git status
+  371  git add Linux terminal_1.txt
+  372  git add .
+  373  git status
+  374  git commit -m "terminal"
+  375  git status
+  376  git add .
+  377  git status
+  378  git push
+  379  mkdir git hw1
+  380  cat >> git_hw1.txt
+  381  cat git_hw1.txt
+  382  cd ..
+  383  mkgir json
+  384  mkdir json
+  385  git clone https://github.com/StepanSav/JSON.git
+  386  cd json
+  387  ls -la
+  388  git status
+  389  cd git
+  390  mkdur testt
+  391  mkdir testt
+  392  cd testt
+  393  history
+  394  git clone https://github.com/StepanSav/Testing-theory.git
+  395  git status
+  396  cd Testing-theory
+  397  git status
+  398  ls
+  399  git init
+  400  git add .
+  401  git ctatus
+  402  git status
+  403  ls -la
+  404  ls -l
+  405  add Теория тестирования Задание 1.docx 
+  406  add Теория\ тестирования\ Задание\ 1.docx 
+  407  git  commit -m Testing-theory
+  408  git push 
+  409  ls
+  410  cd git
+  411  ls
+  412  cd testt
+  413  ls
+  414  cd Testing-theory/
+  415  mkdir Задание 1.txt
+  416  rm -r Задание 1.txt
+  417  cat Задание/1.txt
+  418  cat Задание\1.txt
+  419  cat "Задание 1.txt"
+  420  cat >>"Задание 1.txt"
+  421  add Задание\ 1.txt 
+  422  cat Задание\ 2.txt
+  423  cat >>Задание\ 2.txt
+  424  add "Задание 1.txt" 
+  425  cd git
+  426  cd testt/
+  427  cd Testing-theory/
+  428  rm Теория\ тестирования\ Задание\ 1.docx 
+  429  cd git 
+  430  ls
+  431  cd testt/
+  432  ls
+  433  cd Testing-theory/
+  434  ls
+  435  git add .
+  436  git commit -m "Задание 1.txt"
+  437  git push "Задание 1.txt"
+  438  git checkout main
+  439  git push
+  440  git checkout main
+  441  clear
+  442  cd //
+  443  cd git
+  444  ls
+  445  cd..
+  446  cd ..
+  447  cd //
+  448  ls
+  449  cd git
+  450  ls
+  451  cd lesson
+  452  ls
+  453  git add .
+  454  cat >> Termial_HM_2.txt
+  455  cat Termial_HM_2
+  456  cat Termial_HM_2.txt
+  457  git add ..
+  458  git commit -m "Termial_HM_2.txt"
+  459  git push "Termial_HM_2.txt"
+  460  git push Termial_HM_2.txt
+  461  cd git
+  462  sd testt/
+  463  ls
+  464  sd testt
+  465  cd testt
+  466  ls
+  467  cd ..
+  468  cd lesson/
+  469  git pull
+  470  git push
+  471  git add ..
+  472  git add "Termial_HM_2.txt"
+  473  git add 'Termial_HM_2.txt'
+  474  git add Termial_HM_2.txt
+  475  git add .
+  476  git commit -m "Termial_HM_2.txt"
+  477  git push Termial_HM_2.txt
+  478  git push "Termial_HM_2.txt"
+  479  git pull origin main
+  480  git add .
+  481  git push 
+  482  find ./ -name"*.txt"
+  483  find ./ -name "*.txt"
+  484  cat Linux\ terminal_1.txt
+  485  cat >> Termial_HM_2.txt
+  486  cat Linux\ terminal_1.txt
+  487  cd ..
+  488  ls
+  489  cd json
+  490  cat >> new.json
+  491  ls
+  492  git add new.json 
+  493  git commit -m "new.json" 
+  494  git push origin main
+  495  cat new.json 
+  496  vim new.json 
+  497  git add new.json 
+  498  git commit -m  "new.json" 
+  499  git push origin main
+  500  history >> hist_json.txt
+  501  cd git 
+  502  cd json
+  503  git status
+  504  dir
+  505  git comfig --global user.name "Степан"
+  506  clear
+  507  git config --global user.name "savincev"
+  508  git config --global user.email "savincev@yande.tutu"
+  509  git config -l
+  510  -l
+  511  ls -la
+  512  git config --list --global
+  513  git config --list --system
+  514  git config --list --local
+  515  git config --local user.name 'STEPAN'
+  516  git config --list --local
+  517  ls -la
+  518  git config --list 
+  519  last -10
+  520  git config --global.ui true
+  521  git config --global color.ui true
+  522  last -10
+  523  cat .git/config
+  524  sd ..
+  525  cd ..
+  526  cat .git/config
+  527  cd ..
+  528  cat .git/config
+  529  git config user.name
+  530  cd git
+  531  cd json
+  532  git config user.name
+  533  clear
+  534  git config --list
+  535  git config --list --global
+  536  git config --global -rm user.user 'StepanS'
+  537  clear
+  538  git config --list
+  539  git config --list --global
+  540  git config --list --local
+  541  git config user.name
+  542  cd ..
+  543  git config user.name
+  544  cd ..
+  545  git config user.name
+  546  cltar
+  547  clear
+  548  git config --list
+  549  cd git
+  550  cd json
+  551  clear
+  552  git config --list
+  553  git config user.name
+  554  cd ..
+  555  git config user.name
+  556  cd json
+  557  git status
+  558  git add
+  559  git add git_hw1.txt 
+  560  git status
+  561  git add hist_json.txt 
+  562  git status
+  563  git push
+  564  > preferences.json
+  565  cat preferences.json
+  566  cat >> preferences.json
+  567  cat preferences.json
+  568  vim preferences.json
+  569  vim skills.json
+  570  cat skills.json
+  571  cat >>skills.json
+  572  vim skills.json
+  573  git add preferences.json skills.json 
+  574  git status 
+  575  git commit -m "preferences.json skills.json "
+  576  git push
+  577  git pull
+  578  cat bug_report.json 
+  579  history >> hist1.txt
